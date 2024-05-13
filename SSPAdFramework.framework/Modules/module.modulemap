@@ -1,0 +1,6 @@
+framework module SSPAdFramework {
+  umbrella header "SSPAdFramework.h"
+
+  export *
+  module * { export * }
+}
