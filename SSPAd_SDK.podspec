@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSPAd_SDK"
-  s.version      = "1.3.5"
+  s.version      = "1.3.6"
   s.summary      = "SSPAd_SDK"
 
 
@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.source = {:git => "https://github.com/zipzipzipzip/SSPAdSDK.git", :tag => s.version}
   s.resources =  "*.bundle"
   s.ios.vendored_frameworks = '*.framework'
-  s.dependency 'Ads-CN', '~> 5.4.0.9'
-  s.dependency 'KSAdSDK', '~> 3.3.63'
-  s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'GDTMobSDK', '~> 4.14.71'
-  s.dependency 'AFNetworking', '~> 4.0.1'
-  s.dependency 'SDWebImageWebPCoder', '~> 0.13.0'
-  s.dependency 'WechatOpenSDK-XCFramework', '~> 2.0.2'
+  s.dependency 'Ads-CN', '5.4.0.9'
+  s.dependency 'KSAdSDK', '3.3.63'
+  s.dependency 'Masonry', '1.1.0'
+  s.dependency 'GDTMobSDK', '4.14.76'
+  s.dependency 'AFNetworking', '4.0.1'
+  s.dependency 'SDWebImageWebPCoder', '0.13.0'
+  s.dependency 'WechatOpenSDK-XCFramework', '2.0.4'
 
 end
