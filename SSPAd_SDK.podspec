@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSPAd_SDK"
-  s.version      = "1.3.7"
+  s.version      = "1.3.8"
   s.summary      = "SSPAd_SDK"
 
 
